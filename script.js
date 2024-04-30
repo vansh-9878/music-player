@@ -98,25 +98,5 @@ audio.addEventListener('ended',nextSong);
 
 
 
-//something different
-// const options = {
-// 	method: 'GET',
-// 	headers: {
-// 		'X-RapidAPI-Key': 'd7de62f97fmshafa901d8a15ecd6p140157jsnb75d14cc3f6a',
-// 		'X-RapidAPI-Host': 'youtube-music-api3.p.rapidapi.com'
-// 	}
-// };
-
-// async function getSong(){
-//     try{
-//     const response= await fetch("https://youtube-music-api3.p.rapidapi.com/music/info?id=0yEuqc6LtoE",options);
-    
-//     const data=response.json();
-//     console.log(data);
-//     }
-//     catch{
-//         console.log("Next Time");
-//     }
-// }
 
 
